@@ -1,35 +1,164 @@
-# Anish Battu — Portfolio
+# Hi there 👋, I'm Anish Battu
 
-A single-page, no-build portfolio site (plain HTML/CSS/JS). Free to host on GitHub Pages.
+## Senior Software Developer | Java | AWS | Cloud | Microservices
 
-## Files
-- `index.html` — content and structure
-- `style.css` — theme
-- `script.js` — hero typing effect, expandable work-log entries, and the skill-tag "trace" filter
+I'm a Software Engineer with **8+ years of experience** designing and building enterprise-scale applications across insurance, fintech, healthcare, and banking.
 
-## Host it free on GitHub Pages (5 minutes)
+I enjoy building scalable backend systems, cloud-native applications, distributed systems, and developer-friendly infrastructure.
 
-1. Create a new GitHub repo, e.g. `anishbattu.github.io` (using exactly `<your-github-username>.github.io` gives you a clean root URL) — or any repo name if you're fine with a `/reponame` suffix in the URL.
-2. Upload these three files (`index.html`, `style.css`, `script.js`) to the repo root — drag-and-drop on github.com works, or:
-   ```bash
-   git init
-   git add index.html style.css script.js README.md
-   git commit -m "Portfolio site"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-3. On GitHub: go to the repo → **Settings** → **Pages** → under "Build and deployment", set **Source** to `Deploy from a branch`, branch `main`, folder `/ (root)` → **Save**.
-4. Wait 1–2 minutes. Your site is live at:
-   - `https://<your-username>.github.io/` (if you named the repo `<your-username>.github.io`), or
-   - `https://<your-username>.github.io/<repo-name>/` (any other repo name)
+---
 
-## Before you publish
+## 🚀 About Me
 
-- In `index.html`, find the `#contact` section and replace the four `data-placeholder` links (LinkedIn, GitHub, Medium) with your real profile URLs — search for `href="#" data-placeholder`.
-- Your email is already wired up as a `mailto:` link.
-- No phone number is included on the public page by design — add one in the contact section only if you're comfortable with it being public.
+- 💻 Senior Java Developer
+- ☁️ AWS Cloud & Serverless Engineer
+- ⚡ Backend & Microservices Specialist
+- 🔥 Passionate about Distributed Systems
+- 📚 Always learning new technologies
+- 🌎 Open to Software Engineer opportunities
 
-## Editing content later
+---
 
-All resume content — experience entries, bullet points, skill tags — lives in `script.js` at the top, in the `SKILL_GROUPS` and `EXPERIENCE` arrays. Edit the text there; the page re-renders from that data automatically, no HTML editing needed. Each bullet has a `tags` array — keep those in sync with the skill tag slugs so the "click a skill to trace it through the log" filter keeps working correctly.
+## 🛠 Tech Stack
+
+### Languages
+
+- Java
+- SQL
+- JavaScript
+- TypeScript
+
+### Backend
+
+- Spring Boot
+- Spring MVC
+- REST APIs
+- Hibernate
+- JDBC
+- Microservices
+
+### Cloud
+
+- AWS Lambda
+- API Gateway
+- Step Functions
+- S3
+- SQS
+- SNS
+- EventBridge
+- Glue
+- Athena
+- CloudFormation
+- AWS CDK
+
+### Frontend
+
+- React
+- HTML
+- CSS
+- JSP
+
+### Databases
+
+- Oracle
+- SQL Server
+- MySQL
+
+### DevOps
+
+- Docker
+- Kubernetes
+- Jenkins
+- GitHub Actions
+- Git
+
+### Testing
+
+- JUnit
+- Integration Testing
+- REST API Testing
+
+---
+
+# 💼 Experience
+
+✔ Auto-Owners Insurance
+
+✔ Intuit
+
+✔ Citibank
+
+✔ UnitedHealthCare
+
+Worked on
+
+- Enterprise Java Applications
+- Cloud Migration
+- Serverless Applications
+- Event-Driven Systems
+- ETL Pipelines
+- Secure REST APIs
+- CI/CD Automation
+- Distributed Systems
+
+---
+
+# 📌 Featured Projects
+
+Here are some projects you'll find on my GitHub.
+
+### ☁️ AWS Serverless Application
+
+Java + Lambda + API Gateway + DynamoDB
+
+---
+
+### 🏦 Banking Microservices
+
+Spring Boot Microservices with REST APIs
+
+---
+
+### 📊 ETL Data Pipeline
+
+AWS Glue + Athena + S3
+
+---
+
+### 📈 Java Backend Projects
+
+Collection of backend applications using Java and Spring.
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+
+---
+
+## 🌱 Currently Learning
+
+- System Design
+- Kubernetes
+- Distributed Systems
+- Event-Driven Architecture
+- AI-assisted Development
+
+---
+
+## 🤝 Let's Connect
+
+📧 Email: anishbattu95@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+
+🌐 Portfolio: YOUR_PORTFOLIO
+
+📝 Medium: YOUR_MEDIUM
+
+---
+
+> "First solve the problem. Then write clean, scalable code."

@@ -155,9 +155,9 @@ Collection of backend applications using Java and Spring.
 
 💼 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
-🌐 Portfolio: YOUR_PORTFOLIO
+🌐 Portfolio: https://anishbattu.github.io/
 
-📝 Medium: YOUR_MEDIUM
+📝 Medium: https://medium.com/@anishbattu1
 
 ---
 

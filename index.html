@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anish Battu — Senior Software Engineer</title>
+<meta name="description" content="Anish Battu — Senior Software Engineer specializing in AWS serverless architecture and Java. 8+ years across insurance, fintech, healthcare and banking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <span class="brand">$ whoami</span>
+    <nav class="topnav" aria-label="Primary">
+      <a href="#stack">stack</a>
+      <a href="#log">log</a>
+      <a href="#metrics">metrics</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero wrap" id="top">
+    <div class="term">
+      <div class="term-bar">
+        <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+        <span class="term-title">session — us-east-1</span>
+      </div>
+      <div class="term-body">
+        <p class="prompt-line"><span class="prompt">$</span> <span id="typed" class="typed"></span><span class="cursor" aria-hidden="true">▍</span></p>
+        <div id="hero-reveal" class="hero-reveal">
+          <h1 class="name">Anish Battu</h1>
+          <p class="role">Senior Software Engineer — AWS Serverless &amp; Java</p>
+          <p class="pitch">Eight years turning slow, manual, legacy systems into serverless platforms that provision themselves, retry their own failures, and page the right person in minutes instead of hours. Built for Auto&#8209;Owners Insurance, Intuit, Citibank and UnitedHealthcare.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#log">view work log</a>
+            <a class="btn btn-ghost" href="#contact">get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METRICS -->
+  <section class="metrics wrap" id="metrics">
+    <h2 class="section-label"><span class="tag">01</span> impact, in numbers</h2>
+    <div class="metric-grid">
+      <div class="metric-card">
+        <span class="metric-value">8+</span>
+        <span class="metric-unit">years</span>
+        <span class="metric-label">shipping production Java &amp; AWS systems</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">50–70%</span>
+        <span class="metric-unit">faster</span>
+        <span class="metric-label">environment provisioning via reusable CDK constructs</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">half-day → &lt;1hr</span>
+        <span class="metric-unit">deploys</span>
+        <span class="metric-label">after rebuilding CI/CD on Jenkins &amp; GitHub Actions</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">hours → minutes</span>
+        <span class="metric-unit">detection</span>
+        <span class="metric-label">on unauthorized changes, via CloudWatch/EMF + CloudTrail alerting</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / STACK TRACE -->
+  <section class="stack wrap" id="stack">
+    <h2 class="section-label"><span class="tag">02</span> stack — click to trace through the work log</h2>
+    <p class="section-hint">Select a tag to highlight every log entry below where it was actually used.</p>
+    <div class="tag-groups" id="tag-groups">
+      <!-- populated by categories -->
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / DEPLOY LOG -->
+  <section class="log wrap" id="log">
+    <h2 class="section-label"><span class="tag">03</span> work log</h2>
+    <div class="deploy-log" id="deploy-log">
+      <!-- entries injected by script.js content already in HTML below -->
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education wrap" id="education">
+    <h2 class="section-label"><span class="tag">04</span> education</h2>
+    <div class="edu-card">
+      <span class="edu-degree">M.S., Computer Science</span>
+      <span class="edu-school">Montclair State University, USA</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact wrap" id="contact">
+    <h2 class="section-label"><span class="tag">05</span> contact</h2>
+    <div class="term contact-term">
+      <div class="term-bar">
+        <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+        <span class="term-title">contact — reachable now</span>
+      </div>
+      <div class="term-body">
+        <p class="prompt-line"><span class="prompt">$</span> curl -s anish/contact</p>
+        <ul class="contact-list">
+          <li><a href="mailto:anishbattu95@gmail.com">anishbattu95@gmail.com</a></li>
+          <li><a href="#" data-placeholder="linkedin">LinkedIn</a></li>
+          <li><a href="#" data-placeholder="github">GitHub</a></li>
+          <li><a href="#" data-placeholder="medium">Medium</a></li>
+        </ul>
+        <p class="contact-note">// swap the placeholder links in index.html for your real profile URLs</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <span>built with a text editor, not a template — deployed on GitHub Pages</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
